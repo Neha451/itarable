@@ -1,0 +1,20 @@
+package com.company;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        LinkedList<Integer> num = new LinkedList<Integer>();
+        num.add(5);
+        num.add(6);
+        num.add(7);
+        num.add(8);
+        Iterator it = num.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
+        }
+    }
+}
